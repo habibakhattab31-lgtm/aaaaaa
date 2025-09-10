@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 
       home:BlocProvider<CounterBloc>(
         create: (context) => CounterBloc(),
-        child: const MyHomePage(title: "flutter demo homepage",) ,
+        child: const MyHomePage(title: "flutter demo homepage ",) ,
       )
 
 
